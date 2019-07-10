@@ -1,0 +1,24 @@
+.fakeButton {
+  animation: glow 2.2s ease-out infinite;
+  background: linear-gradient(0deg, #ffd556 0%, #F7E3A6 100%);
+  padding: 1% 5%;
+  color: #795d08;
+}
+.fakeButton:hover {
+  background: linear-gradient(0deg, #ffd556 0%, #ffd556 100%);
+}
+.fakeButton:active {
+  background: linear-gradient(0deg, white 0%, #ffd556 100%) !important; /* !important to override bootstrap */
+}
+.realButton {
+  display: none;
+}
+
+@keyframes glow {
+  0%, 100% {
+    filter: contrast(90%);
+  }
+  50% {
+    filter: contrast(120%);
+  }
+}

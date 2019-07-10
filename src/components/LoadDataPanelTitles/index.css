@@ -1,0 +1,13 @@
+.container {
+  font-family: 'Comfortaa', cursive;
+}
+.mainTitle {
+  font-size: 5rem;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+.slogan {
+  font-size: 0.94rem;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}

@@ -1,0 +1,6 @@
+.row > td:first-letter {
+  text-transform: capitalize;
+}
+.icon {
+  border: 1px solid lightgrey;
+}

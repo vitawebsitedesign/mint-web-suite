@@ -1,0 +1,21 @@
+.appName, .dataFileInfo {
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.68rem;
+  padding: 0;
+}
+.dataFileInfo {
+  align-items: center;
+  animation: fadeIn 1s ease-out;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
